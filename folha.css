@@ -1,0 +1,234 @@
+/* configuraçoes globas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+/* estilização cabeçalho */
+.form-inscriçao {
+  background: rgb(22, 17, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 17, 110, 1) 27%,
+    rgba(9, 9, 121, 0.7343312324929971) 49%,
+    rgba(21, 21, 51, 1) 84%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* descrição do eveto primeira div */
+.descriçao {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#day {
+  color: rosybrown;
+}
+
+#text,
+#date,
+#day {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+/* cadastro formulario segunda div */
+.formulario {
+  height: 95%;
+  padding: 25px;
+  width: 30%;
+  margin-top: 15px;
+  background-color: rgb(130, 187, 187);
+  border-radius: 8px;
+}
+
+#titulo-form {
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-bottom: 0.3em;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.form-group input,
+.form-group select {
+  width: 85%;
+  margin-left: 30px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+/* estilização btn */
+.btn {
+  width: 85%;
+  margin-left: 30px;
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 20px;
+  background-color: brown;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(217, 217, 231);
+  transition: 3s;
+}
+
+/* primeira section */
+.secao-title {
+  background-color: #464545;
+  height: 20vh;
+  text-align: center;
+}
+
+#title {
+  padding-top: 40px;
+}
+
+/* estilizaçao segunda section */
+
+.opçoes {
+  height: 400px;
+  background-color: #878787;
+  display: flex;
+  justify-content: space-around;
+}
+
+.evento {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.evento-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+#evento-1 {
+  background-image: url("img-1.jpg");
+}
+
+#evento-2 {
+  background-image: url("img-2.jpg");
+}
+
+#evento-3 {
+  background-image: url("img-3.jpg");
+}
+/* estilização section */
+
+#details {
+  width: 80%;
+  margin: auto;
+  height: 130vh;
+}
+
+.detail img {
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail h3 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+.detail-descriçao {
+  width: 100%;
+}
+
+.detail.descriçao {
+  width: 100%;
+  padding-left: 2em;
+}
+
+#detail-3 .detail-descriçao {
+  justify-self: flex-start;
+}
+
+#text-3,
+#title-3 {
+  margin-left: 55%;
+}
+
+.detail-descriçao ul li {
+  margin-bottom: 0.4em;
+}
+
+.cta {
+  padding: 120px;
+  background-image: url("img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+/* estilização botao */
+
+.btn-1 {
+  width: 20%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 100%;
+  background-color: #ff6f9c;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* estilização rodapé */
+
+.footer {
+  padding: 70px;
+  text-align: center;
+  background-color: #464545;
+  color: white;
+}
+
+#title-footer{
+    font-size: 40px;
+    font-weight: bold;
+}
